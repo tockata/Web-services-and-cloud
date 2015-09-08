@@ -18,13 +18,13 @@
             this.comments = new HashSet<Comment>();
         }
 
-        public ICollection<Bug> Bugs
+        public virtual ICollection<Bug> Bugs
         {
             get { return this.bugs; }
             set { this.bugs = value; }
         }
 
-        public ICollection<Comment> Comments
+        public virtual ICollection<Comment> Comments
         {
             get { return this.comments; }
             set { this.comments = value; }
