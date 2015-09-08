@@ -57,12 +57,12 @@ namespace OnlineShop.Data.Migrations
         {
             var categories = new List<Category>()
             {
-                new Category() {Name = "Business"},
-                new Category() {Name = "Garden"},
-                new Category() {Name = "Toys"},
-                new Category() {Name = "Pleasure"},
-                new Category() {Name = "Electronics"},
-                new Category() {Name = "Clothes"}
+                new Category() {Name = "Business" },
+                new Category() {Name = "Garden" },
+                new Category() {Name = "Toys" },
+                new Category() {Name = "Pleasure" },
+                new Category() {Name = "Electronics" },
+                new Category() {Name = "Clothes" }
             };
 
             foreach (var category in categories)

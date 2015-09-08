@@ -16,7 +16,7 @@
             }
 
             List<int> categories = value as List<int>;
-            if (categories.Count < 1 && categories.Count > 3)
+            if (categories.Count < 1 || categories.Count > 3)
             {
                 return new ValidationResult("Categories should be at least 1 and no more than 3.");
             }
